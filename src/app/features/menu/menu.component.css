@@ -1,0 +1,14 @@
+.navbar {
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-brand {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #0fb8ad;
+}
+
+
+
