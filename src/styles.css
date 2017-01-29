@@ -25,7 +25,7 @@ body {
 }
 
 .app-loading .spin {
-  background: url('assets/images/angular_logo.png') no-repeat center;
+  background: url('assets/images/rubik.png') no-repeat center;
   background-size: 90%;
   display: block;
   margin: auto;

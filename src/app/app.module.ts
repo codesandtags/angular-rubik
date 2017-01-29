@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { GalleryComponent } from './features/gallery/gallery.component';
 import { MenuComponent } from './features/menu/menu.component';
+import { TableComponent } from './features/table/table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GalleryComponent,
-    MenuComponent
+    MenuComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,

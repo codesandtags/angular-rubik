@@ -1,0 +1,21 @@
+<div class="table-responsive">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th *ngFor="let heading of getHeadings()">{{heading}}</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let component of getColumns()">
+      <td>{{component.name}}</td>
+      <td>{{component.description}}</td>
+      <td>{{component.category}}</td>
+      <td>{{component.author}}</td>
+      <td>
+        <a href="#">GitHub</a>
+        <a href="#">Demo</a>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
